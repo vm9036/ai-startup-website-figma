@@ -274,7 +274,7 @@
     width: 800px;
     height: 400px;
     border-radius: 12px;
-    background-image: url(/assets/images/user-friendly.png);
+    background-image: url(assets/images/user-friendly.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -347,7 +347,7 @@
     border-radius: 12px;
     background:
         linear-gradient(179.77deg, rgba(3, 1, 6, 0) 29.33%, #361764 89.04%),
-        url(/assets/images/analytics.png);
+        url(assets/images/analytics.png);
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
