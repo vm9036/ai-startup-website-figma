@@ -535,8 +535,102 @@
     color: rgba(255, 255, 255, 1);
 }
 
-.main_toggle{
+.main_toggle {
     margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.pricing_boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.pricing_box {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    padding: 20px;
+    width: 307px;
+    height: 500px;
+}
+
+.pro_box {
+    background: linear-gradient(180deg, #010002 0%, #361764 100%), url(../images/Pattern.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    box-shadow: 0px 10px 74px 10px rgba(78, 0, 191, 0.41);
+    border: 1px solid transparent;
+}
+
+
+.pricing_box h5 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.pricing_box p {
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFFB2;
+}
+
+.pricing_box .line {
+    border-bottom: 1px solid rgba(40, 39, 41, 1);
+    width: 267px;
+    margin-block: 20px;
+}
+
+ul li {
+    margin-block: 6px;
+    list-style: none;
+}
+
+ul li img {
+    color: rgba(255, 255, 255, 1);
+    vertical-align: middle;
+}
+
+ul li span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    vertical-align: middle;
+    letter-spacing: 1.9px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.pricing_box .btn {
+    display: flex;
+    justify-content: center;
+}
+
+.pricing_box .pricing_btn {
+    margin-top: 186px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 6px 94px;
+    background: rgba(61, 61, 61, 0.4);
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 3px rgba(255, 255, 255, 0.25) inset;
+    backdrop-filter: blur(14px);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+}
+
+.pricing_box .custom_btn {
+    margin-top: 121px !important;
+}
+
+.pricing_box .custom_btn2 {
+    margin-top: 58px !important;
 }
 
 /* pricing section ends */
