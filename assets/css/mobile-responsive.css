@@ -5,12 +5,16 @@
 
     /* header section starts */
 
+    .container {
+        width: 100%;
+    }
+
     .navbar {
         padding-block: 17px;
     }
 
     .navbar_logo {
-        margin-right: 90px;
+        margin-right: 120px;
     }
 
     .main_navbar {
@@ -25,7 +29,7 @@
     }
 
     .navbar_button {
-        margin-right: 8px;
+        margin-right: 17px;
     }
 
     .hamburger {
@@ -49,22 +53,233 @@
 
     /* hero section start */
 
-    .main_hero_sec{
+    .main_hero_sec {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
-    .company_boxes{
+    .company_boxes {
         flex-wrap: wrap;
     }
 
-    .company_main_sec{
+    .company_main_sec {
         padding-inline: 15px;
     }
-    /* hero section ends */
-}
 
+
+    .hero_content h1 {
+        font-size: 48px;
+        line-height: 52px;
+    }
+
+    .hero_content p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .hero_img {
+        margin-top: 54px;
+    }
+
+    /* hero section ends */
+
+    /* companies section start */
+    .company_main_sec {
+        padding-inline: 3px;
+    }
+
+    .company_boxes .company_box {
+        padding: 32px 10px;
+    }
+
+    .company_heading h3 {
+        font-size: 19px;
+    }
+
+    /* companies section ends */
+
+    /* bento section starts */
+
+    .bento_main_sec {
+        padding-inline: 10px;
+    }
+
+    .bento_heading h3 {
+        font-size: 26px;
+    }
+
+
+    .bento_user_friendly {
+        width: 100%;
+        background-position: left;
+    }
+
+    .bento_user_friendly_content {
+        left: 20px;
+    }
+
+    .bento2 .bento_visual_report {
+        width: 100%;
+        background-position: left;
+    }
+
+    .bento2 .bento_visual_report_content {
+        left: 20px;
+    }
+
+    /* bento section ends */
+
+    /* feature section starts */
+
+    .feature_main_sec {
+        padding: 76px 0;
+    }
+
+    .feature_main_sec h2 {
+        font-size: 26px;
+        padding-inline: 50px 36px;
+        text-align: center;
+
+    }
+
+    .feature_boxes {
+        padding-inline: 50px 18px;
+    }
+
+    .feature_boxes .feature_box {
+        flex: 0 0 100%;
+    }
+
+    /* feature section ends */
+
+    /* client section starts */
+
+    .clients_main_sec {
+        padding: 50px 0 69px 0;
+    }
+
+    .client_content {
+        padding-inline: 45px;
+    }
+
+    .client_content h2 {
+
+        font-size: 26px;
+    }
+
+    .client_content p {
+        font-size: 18px;
+    }
+
+    .client_testimonial {
+        flex-direction: column;
+    }
+
+    .client_testimonial_content {
+        text-align: center;
+        padding-inline: 32px 19px;
+    }
+
+    .client_testimonial_content .test_content {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .client_testimonial_content h4 {
+        margin-top: 20px;
+    }
+
+    .client_testimonial_content p {
+        margin-top: 5px;
+    }
+
+    /* client section ends */
+
+    /* pricing section starts */
+
+    .pricing_main_sec {
+        padding-inline: 0px;
+    }
+
+    .pricing_heading {
+        padding-inline: 50px;
+    }
+
+    .pricing_heading h2 {
+        font-size: 26px;
+    }
+
+    .pricing_heading p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .pricing_boxes {
+        flex-wrap: wrap;
+    }
+
+    /* pricing section ends */
+
+    /* cta section starts */
+
+    .cta_sec {
+        padding: 0;
+    }
+
+    .cta_main {
+        padding: 0;
+    }
+
+    .cta_button {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        box-shadow: none;
+        border: none;
+    }
+
+    .cta_button input[type="email"] {
+        border-radius: 8px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    /* cta section starts */
+
+    /* footer section starts */
+
+    .footer_main_sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .footer_social_icon {
+        margin: 0;
+        align-items: center;
+    }
+
+    .footer_mix_sec {
+        display: flex;
+        gap: 20px;
+    }
+
+    .footer_links_mix {
+        flex-wrap: wrap;
+    }
+
+    .footer_social_icon img {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* footer section ends */
+}
 
 /* tablet responsive media query */
 
